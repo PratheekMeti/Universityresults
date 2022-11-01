@@ -71,7 +71,7 @@ if(rs.next()==true)
 	hs.setAttribute("marks1",marks1);
 	hs.setAttribute("marks2",marks2);
 	hs.setAttribute("marks3",marks3);
-	pw.println(name+" "+password+" "+reg+" "+marks1+" "+marks2+" "+marks3+" "+avg);
+	pw.println("Name: "+name+" "+"\nPassword: "+password+" "+"\nRegesterd number: "+reg+" "+"\nMarks: "+"\nInternal Marks: "+marks1+" "+"\nExternal Marks: "+marks2+" "+"\nLab Marks: "+marks3+" "+"\nAverage: "+avg);
 }
 else
 {
